@@ -6,6 +6,16 @@ A conversational AI chatbot designed to assist users with medical queries, provi
 
 ![App demo image](Resources/demo-app.png)
 
+## Data Source & Vector Store
+
+- The chatbot’s knowledge base is constructed using Gale’s Encyclopedia, Third Edition - Jacqueline L. Longe. Relevant content from the encyclopedia was extracted, embedded, and stored in a vector database to enable context-aware responses. Approaximately 40,000 chunks were created during the process.
+
+- Vector Database: Pinecone is used to store and retrieve embeddings efficiently.
+
+- Embedding Technique: Each encyclopedia entry is converted into vector embeddings to allow semantic similarity search.
+
+- Purpose: This setup ensures that the chatbot provides accurate, contextually relevant answers to user queries.
+
 ## Features
 
 - Natural language understanding for medical questions
