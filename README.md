@@ -1,6 +1,6 @@
 # Medical Chatbot
 
-**Check out the live app here:  [Live Demo](https://demonforms-car-damage.streamlit.app/)**
+**Check out the live app here:  [Live Demo](https://demonforms-medical.streamlit.app/)**
 
 A conversational AI chatbot designed to assist users with medical queries, provide health information, and guide users to appropriate resources. Built with Large Language Model with Retrieval Augmented Generation (RAG) concept for reliability and ease of use with LangChain, Pinecone, HuggingFace and Groq.
 
